@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background: linear-gradient(#8008a2, #ffe88a);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .column {
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .button {
+      text-decoration: none;  
+      display: flex;
+      flex-direction: column;
+      padding: 10px 20px;
+      background-color: #a516d1;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .column button {
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      background-color: #c34cf1;
+    }
+
+    .perfil{
+        border-radius: 20px;
+    }
+
+    .dog{
+        width: 60%;
+        height: 100%;
+      border-radius: 5px;
+
+    }
+    a{
+        text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="column">
+
+      <img src="perfil.jpg" alt="" class="perfil">
+      <br>
+      <button class="button"><a href="perfil/perfil.html">Perfil</a></button>
+      <br>
+      <br>
+      <button class="button"><a href="../index.html">Sair</a></button>
+    </div>
+    <div class="column">
+        <img src="Logo.png" alt="">
+        <img src="calendario.png" alt="" class="dog">
+    </div>
+    <div class="column">
+    
+      <img src="dog.png" alt="" class="dog">
+    </div>
+  </div>
+</body>
+</html>
